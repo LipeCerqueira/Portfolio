@@ -385,6 +385,9 @@ a #icon{
         height: 240px;
         margin-top: 20%;  
     }
+
+
+    /* ---------------------------------------about me ------------------- */
  
 }
 
@@ -442,7 +445,87 @@ a #icon{
 
     #icon{ 
         font-size: 180%;
-    } 
+    }
+    
+    
+
+    /* -----------------------------------------------------ABOUT ME -------------------------------------------------------------- */
+
+    .containerAboutMe{
+        height: 900px;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #09142D;     
+        
+        
+    }
+    
+    .myPicture{
+        width: 100%;
+        height: 30%;
+        margin:3%;
+        
+        
+
+    }
+    .myPicture img{ 
+        width: 70%;
+        height:100%;
+    }
+
+    .introducao{
+        background-color: #09142D;
+        width: 100%;
+        height: 50%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    
+    .introducao h1{
+        font-size: 25px ;
+    }
+    
+    .introducao h2{
+        font-size: 16px;
+        margin: 15px 5px 12px 5px ;  
+    }
+    
+    .introducao p{
+        font-size: 20px;
+        margin-top: 5%;
+        margin-left:2%;
+    }
+    
+    
+    
+    .softskill{
+        width: 80%;
+        height: 20%;
+        margin: 2% 0% 0% 5%;
+    }
+    
+    
+    .softskill ul{
+        font-size: 16px;
+        list-style: none;
+        
+    }
+    .softskill ul li{
+        margin-top: 5px;   
+    }
+    
+    #softskill{
+        
+        margin-right: 10px;
+    }
+    
+    #softskill2{
+        
+        margin-right: 20px;
+    }
     
     
 }
@@ -523,7 +606,7 @@ a #icon{
         align-items: center;
         display: flex;
         flex-wrap: wrap;
-        background-color: #ffffff;
+        background-color: #09142D;
         
         
         
@@ -553,11 +636,11 @@ a #icon{
     
     
     .introducao h1{
-        font-size: 20px ;
+        font-size: 25px ;
     }
     
     .introducao h2{
-        font-size: 13px;
+        font-size: 16px;
         margin: 15px 5px 12px 5px ;  
     }
     
@@ -577,7 +660,7 @@ a #icon{
     
     
     .softskill ul{
-        font-size: 15px;
+        font-size: 16px;
         list-style: none;
         
     }
@@ -662,7 +745,88 @@ a #icon{
 
     #icon{ 
         font-size: 170%;
-    }   
+    }
+    
+    
+
+    /* ----------------------------------//---------------------------- */
+
+     .containerAboutMe{
+        height: 900px;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #09142D;        
+        
+        
+    }
+    
+    .myPicture{
+        width: 100%;
+        height: 33%;
+        margin:3%;
+        
+        
+
+    }
+    .myPicture img{ 
+        width: 55%;
+        height:110%;
+    }
+
+    .introducao{
+        background-color: #09142D;
+        width: 100%;
+        height: 50%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    
+    .introducao h1{
+        font-size: 25px ;
+    }
+    
+    .introducao h2{
+        font-size: 16px;
+        margin: 15px 5px 12px 5px ;  
+    }
+    
+    .introducao p{
+        font-size: 25px;
+        margin-top: 5%;
+        margin-left:2%;
+    }
+    
+    
+    
+    .softskill{
+        width: 80%;
+        height: 20%;
+        margin: 2% 0% 0% 5%;
+    }
+    
+    
+    .softskill ul{
+        font-size: 20px;
+        list-style: none;
+        
+    }
+    .softskill ul li{
+        margin-top: 5px;   
+    }
+    
+    #softskill{
+        
+        margin-right: 10px;
+    }
+    
+    #softskill2{
+        
+        margin-right: 20px;
+    }
+
 }
 
 @media(min-width: 650px){
@@ -723,6 +887,10 @@ a #icon{
         font-size: 180%;
     }   
 
+    /* ------------------------------------------------------------ABOUT ME ----------------------------------------------------- */
+
+    
+
 }
 
 @media(min-width: 750px){
@@ -781,7 +949,13 @@ a #icon{
 
     #icon{ 
         font-size: 180%;
-    }   
+    }
+    
+    
+
+    /* ---------------------------------------------------------------ABOUT ME ------------------------------------------------------- */
+
+    
 
 }
 
@@ -811,6 +985,79 @@ a #icon{
 
     /* -----------------------------------------ABOUT ME-------------------------------------------------------------------- */
 
+    .containerAboutMe{
+        height: 600px;
+        align-items: center;
+        display: flex;
+        background-color: #09142D; 
+        width: 100%; 
+          
+        
+        
+    }
+    
+    .myPicture{
+        width: 30%;
+        height:80%;
+       
+        
+    }
+    .myPicture img{ 
+        width: 70%;
+        height:75%;
+    }
+
+    .introducao{
+        background-color: #09142D;
+        
+        width: 55%;
+        height: 80%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    
+    .introducao h1{
+        font-size: 30px ;
+    }
+    
+    .introducao h2{
+        font-size: 18px;
+        
+    }
+    
+    .introducao p{
+        font-size: 25px;
+    }
+    
+    
+    
+    .softskill{
+        width: 100%;
+        height: 20%;
+        margin: 2% 0% 0% 5%;
+    }
+    
+    
+    .softskill ul{
+        font-size: 20px;
+        
+        
+    }
+    .softskill ul li{
+        margin-top: 5px;   
+    }
+    
+    #softskill{
+        
+        margin-right: 10px;
+    }
+    
+    #softskill2{
+        
+        margin-right: 20px;
+    }
 }
 
 @media(min-width: 1350px){
