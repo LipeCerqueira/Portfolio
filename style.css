@@ -389,6 +389,8 @@ a #icon{
 
     /* ---------------------------------------about me ------------------- */
  
+    
+    
 }
 
 @media(min-width: 400px){
@@ -456,22 +458,24 @@ a #icon{
         align-items: center;
         display: flex;
         flex-wrap: wrap;
-        background-color: #09142D;     
+        background-color: #09142D;  
+        justify-content: center;   
         
         
     }
     
     .myPicture{
-        width: 100%;
+        width: 80%;
         height: 30%;
         margin:3%;
+        align-items: center;
         
         
 
     }
     .myPicture img{ 
-        width: 70%;
-        height:100%;
+        width: 60%;
+        height:90%;
     }
 
     .introducao{
@@ -606,7 +610,7 @@ a #icon{
         align-items: center;
         display: flex;
         flex-wrap: wrap;
-        background-color: #09142D;
+        background-color: #09142D;     
         
         
         
@@ -622,7 +626,7 @@ a #icon{
     }
     .myPicture img{ 
         width: 75%;
-        height:75%;
+        height:80%;
     }
 
     .introducao{
@@ -762,7 +766,7 @@ a #icon{
     }
     
     .myPicture{
-        width: 100%;
+        width: 80%;
         height: 33%;
         margin:3%;
         
@@ -891,7 +895,7 @@ a #icon{
 
     .containerAboutMe{
         height: 700px;
-        align-items: center;
+        align-items: start;
         display: flex;
         background-color: #ffffff;        
         background-color: #09142D;
@@ -901,12 +905,13 @@ a #icon{
     .myPicture{
         width: 30%;
         height: 33%;
+        margin-top: 15%;
         
         
     }
     .myPicture img{ 
         width: 100%;
-        height:90%;
+        height:100%;
     }
 
     .introducao{
@@ -1026,7 +1031,78 @@ a #icon{
 
     /* ---------------------------------------------------------------ABOUT ME ------------------------------------------------------- */
 
+    .containerAboutMe{
+        height: 500px;
+        align-items: start;
+        display: flex;
+        background-color: #09142D;
+        
+    }
     
+    .myPicture{
+        width: 30%;
+        height: 60%;
+        margin-top: 10%;
+        
+        
+    }
+    .myPicture img{ 
+        width: 100%;
+        height:100%;
+    }
+
+    .introducao{
+        background-color: #09142D;
+        width: 55%;
+        height: 50%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    
+    .introducao h1{
+        font-size: 25px ;
+    }
+    
+    .introducao h2{
+        font-size: 16px;
+        margin: 15px 5px 12px 5px ;  
+    }
+    
+    .introducao p{
+        font-size: 25px;
+        margin-top: 5%;
+        margin-left:2%;
+    }
+    
+    
+    
+    .softskill{
+        width: 80%;
+        height: 20%;
+        margin: 2% 0% 0% 5%;
+    }
+    
+    
+    .softskill ul{
+        font-size: 20px;
+        list-style: none;
+        
+    }
+    .softskill ul li{
+        margin-top: 5px;   
+    }
+    
+    #softskill{
+        
+        margin-right: 10px;
+    }
+    
+    #softskill2{
+        
+        margin-right: 20px;
+    }
 
 }
 
@@ -1057,8 +1133,8 @@ a #icon{
     /* -----------------------------------------ABOUT ME-------------------------------------------------------------------- */
 
     .containerAboutMe{
-        height: 600px;
-        align-items: center;
+        height: 790px;
+        align-items: start;
         display: flex;
         background-color: #09142D; 
         width: 100%; 
@@ -1069,14 +1145,16 @@ a #icon{
     
     .myPicture{
         width: 30%;
-        height:80%;
+        height:60%;
+        margin-top: 4%;
        
         
     }
     .myPicture img{ 
-        width: 70%;
-        height:75%;
+        width: 90%;
+        height:66%;
     }
+
 
     .introducao{
         background-color: #09142D;
@@ -1165,7 +1243,113 @@ a #icon{
     .fotinha h2 {
         font-size: 22px;
     }
+
+    /* //---------------------------ABOUT ME------------------------ */
     
+    .containerAboutMe{
+        height: 550px;
+        align-items: start;
+        display: flex;
+        background-color: #09142D; 
+        width: 100%; 
+          
+        
+        
+    }
+    
+    .myPicture{
+        width: 30%;
+        height:80%;
+        margin-top: 4%;
+       
+        
+    }
+    .myPicture img{ 
+        width: 75%;
+        height:70%;
+    }
+
+    .introducao{
+        background-color: #09142D;
+        width: 55%;
+        height: 80%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    
+    .introducao h1{
+        font-size: 30px ;
+    }
+    
+    .introducao h2{
+        font-size: 18px;
+        
+    }
+    
+    .introducao p{
+        font-size: 25px;
+    }
+    
+    
+    
+    .softskill{
+        width: 100%;
+        height: 20%;
+        margin: 2% 0% 0% 5%;
+    }
+    
+    
+    .softskill ul{
+        font-size: 20px;
+        
+        
+    }
+    .softskill ul li{
+        margin-top: 5px;   
+    }
+    
+    #softskill{
+        
+        margin-right: 10px;
+    }
+    
+    #softskill2{
+        
+        margin-right: 20px;
+    }
+}
+
+@media(min-width: 1270px){
+    
+    
+   
+    /* //---------------------------ABOUT ME------------------------ */
+    
+    .containerAboutMe{
+        height: 550px;
+        align-items: start;
+        display: flex;
+        background-color: #09142D; 
+        width: 100%; 
+          
+        
+        
+    }
+    
+    .myPicture{
+        width: 30%;
+        height:80%;
+        margin-top: 4%;
+       
+        
+    }
+    .myPicture img{ 
+        width: 75%;
+        height:70%;
+    }
+
 
 }
 
